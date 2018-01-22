@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intro JavaScript</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="radioGaga">
+        <input type="radio" name="niveau" checked="checked" onchange="jeu(100)" id="radio100"><p>100</p>
+        <input type="radio" name="niveau" onchange="jeu(500)" id="radio500"><p>500</p>
+        <input type="radio" name="niveau" onchange="jeu(1000)" id="radio1000"><p>1000</p>
+    </div>
+    <br><br>
+    <div class="disFlex">
+        <p id="afficheMin">1</p>
+        <input type="range" id="rangeGuess" min="1" max="100" value="1" oninput="afficheRange()" onchange="plusMoins()">
+        <p id="afficheMax">100</p><br>
+    </div>
+    <p id="afficheNombre"></p>
+    <div id="bas">
+        <p id="message"></p>
+        <button onclick="resetJeu()">Reset</button>
+    </div>
+    <script src="../jscript/plusmoins.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* * {border:1px solid} */
+
+#afficheMin, #afficheMax {
+    display: inline-block;
+}
+
+#rangeGuess {
+    width: 90%;
+}
+
+.disFlex {
+    display: flex;
+}
+
+#afficheNombre {
+    text-align: center;
+}
+
+#bas {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-right: 15%;
+}
+
+body {
+    margin: 3% 20%;
+    justify-content: center;
+}
+
+.radioGaga {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.radioGaga p {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+#message {
+    margin-left: 10%;
+}
